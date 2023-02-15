@@ -14,6 +14,9 @@
   "engines": {
     "vscode": "^1.75.0"
   },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "keywords": [
     "Vue",
     "Vue 3",
@@ -30,7 +33,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/okriiza/Vue-3-Fast-Snippets"
+    "url": "https://github.com/okriiza/Vue-3-Code-Snippets"
   },
   "contributes": {
     "languages": [

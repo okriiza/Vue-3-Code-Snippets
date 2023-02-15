@@ -10,6 +10,7 @@
 Vue 3 Code Snippets is a versatile code editor extension designed for developers working with Nuxt 3, Vue 3, and Pinia. This extension provides a comprehensive set of snippets that cover a wide range of features, making it an essential tool for developers looking to increase their productivity and streamline their workflow. The extension includes snippets for Nuxt 3 modules, plugins, and middleware, as well as Vue 3 components, directives, and lifecycle hooks. Additionally, it provides snippets for working with the Pinia state management library, including actions, getters, and mutations. Vue 3 Code Snippets is easy to use and lightweight, with simple and intuitive commands that can be customized to suit the developer's preferences. Overall, this extension is an essential tool that will help developers write code faster, with fewer errors, and with greater consistency.
 
 > I took my inspiration from [vue-vscode-snippets](https://github.com/sdras/vue-vscode-snippets) extension made by @sdras.
+>
 > I took my inspiration from [vue3-vscode-snippets](https://github.com/ExEr7um/vue3-vscode-snippets) extension made by @ExEr7um.
 
 ## Supported languages
