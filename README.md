@@ -1,7 +1,5 @@
 # Vue 3 Code Snippets for Visual Studio Code
 
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/RendiOkriza.vue-3-code-snippets?color=blue)
-![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/RendiOkriza.vue-3-code-snippets?color=success)
 ![GitHub](https://img.shields.io/github/license/okriiza/Vue-3-Code-Snippets)
 ![Vue Version](https://img.shields.io/badge/vue-3-%234FC08D?logo=vuedotjs)
 

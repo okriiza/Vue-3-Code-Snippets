@@ -4,7 +4,7 @@
   "description": "Vue 3, Nuxt 3 And Pinia snippets",
   "icon": "images/vue-logo.png",
   "version": "0.0.1",
-  "publisher": "Rendi Okriza",
+  "publisher": "RendiOkriza",
   "license": "MIT",
   "author": {
     "name": "Rendi Okriza Putra",
@@ -17,6 +17,7 @@
   "activationEvents": [
     "onStartupFinished"
   ],
+  "main": "./extension.js",
   "keywords": [
     "Vue",
     "Vue 3",
