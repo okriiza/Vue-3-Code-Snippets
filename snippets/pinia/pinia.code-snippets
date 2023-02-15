@@ -1,0 +1,38 @@
+{
+  "Pinia Store Start": {
+    "prefix": "pstart",
+    "body": [
+      "import { defineStore, acceptHMRUpdate } from \"pinia\"",
+      "",
+      "export const use${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}Store = defineStore(\"$TM_FILENAME_BASE\", {",
+      "\tstate: () => ({",
+      "\t\t$0",
+      "\t}),",
+      "\tgetters: {},",
+      "\tactions: {},",
+      "})",
+      "",
+      "if (import.meta.hot) {",
+      "\timport.meta.hot.accept(acceptHMRUpdate(use${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}Store, import.meta.hot))",
+      "}",
+      ""
+    ],
+    "description": "Start code needed for a Pinia store file"
+  },
+  "Pinia Store Start - Composition API": {
+    "prefix": "pstart-c",
+    "body": [
+      "import { defineStore, acceptHMRUpdate } from \"pinia\"",
+      "",
+      "export const use${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}Store = defineStore(\"$TM_FILENAME_BASE\", () => {",
+      "\t${0}",
+      "})",
+      "",
+      "if (import.meta.hot) {",
+      "\timport.meta.hot.accept(acceptHMRUpdate(use${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}Store, import.meta.hot))",
+      "}",
+      ""
+    ],
+    "description": "Start code needed for a Pinia store file with Composition API"
+  }
+}

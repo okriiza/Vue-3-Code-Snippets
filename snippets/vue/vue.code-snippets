@@ -1,0 +1,222 @@
+{
+  "Vue SFC Setup": {
+    "prefix": "vstart",
+    "body": [
+      "<script setup>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>"
+    ],
+    "description": "Start Vue 3 File with <script setup>, No Style"
+  },
+  "Vue SFC Setup With Style Scss": {
+    "prefix": "vstart-scss",
+    "body": [
+      "<script setup>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Start Vue 3 File with <script setup>, Style SCSS"
+  },
+  "Vue SFC Setup With Style SASS": {
+    "prefix": "vstart-sass",
+    "body": [
+      "<script setup>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"sass\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Start Vue 3 File with <script setup>, Style SASS"
+  },
+  "Vue SFC Setup With Style LESS": {
+    "prefix": "vstart-less",
+    "body": [
+      "<script setup>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"less\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Start Vue 3 File with <script setup>, Style LESS"
+  },
+  "Vue SFC Setup With Style CSS": {
+    "prefix": "vstart-css",
+    "body": [
+      "<script setup>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"css\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Start Vue 3 File with <script setup>, Style CSS"
+  },
+  "Vue SFC Setup With Style postCSS": {
+    "prefix": "vstart-pcss",
+    "body": [
+      "<script setup>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"postcss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Start Vue 3 File with <script setup>, Style PostCSS"
+  },
+  "Vue SFC Setup TypeScript": {
+    "prefix": "vstart-ts",
+    "body": [
+      "<script setup lang='ts'>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>"
+    ],
+    "description": "Start Vue 3 File with <script setup lang='ts'>, No Style"
+  },
+  "Vue SFC Setup With Style Scss, TypeScript": {
+    "prefix": "vstart-ts-scss",
+    "body": [
+      "<script setup lang='ts'>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Start Vue 3 File with <script setup lang='ts'>, Style SCSS"
+  },
+  "Vue SFC Setup With Style SASS, TypeScript": {
+    "prefix": "vstart-ts-sass",
+    "body": [
+      "<script setup lang='ts'>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"sass\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Start Vue 3 File with <script setup lang='ts'>, Style SASS"
+  },
+  "Vue SFC Setup With Style LESS, TypeScript": {
+    "prefix": "vstart-ts-less",
+    "body": [
+      "<script setup lang='ts'>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"less\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Start Vue 3 File with <script setup lang='ts'>, Style LESS"
+  },
+  "Vue SFC Setup With Style CSS, TypeScript": {
+    "prefix": "vstart-ts-css",
+    "body": [
+      "<script setup lang='ts'>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"css\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Start Vue 3 File with <script setup lang='ts'>, Style CSS"
+  },
+  "Vue SFC Setup With Style postCSS, TypeScript": {
+    "prefix": "vstart-ts-pcss",
+    "body": [
+      "<script setup lang='ts'>",
+      "\t${0}",
+      "</script>",
+      "",
+      "<template>",
+      "\t<div>",
+      "",
+      "\t</div>",
+      "</template>",
+      "",
+      "<style lang=\"postcss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "Start Vue 3 File with <script setup lang='ts'>, Style PostCSS"
+  },
+}

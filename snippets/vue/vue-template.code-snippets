@@ -1,0 +1,25 @@
+{
+  "Vue Template": {
+    "prefix": "vtemplate",
+    "body": [
+      "<template>",
+      "\t${0}",
+      "</template>"
+    ],
+    "description": "Vue Template"
+  },
+  "Vue Named Slots": {
+    "prefix": "vslot-named",
+    "body": ["<template #${1:name}>${2:defaultcontent}</template>"],
+    "description": "named slot"
+  },
+  "Vue v-for": {
+    "prefix": "vfor",
+    "body": [
+      "<${1:div} v-for=\"${2:item} in ${2:item}s\" :key=\"${2:item}.id\">",
+      "\t{{ ${2:item} }}",
+      "</${1:div}>"
+    ],
+    "description": "v-for statement"
+  },
+}
