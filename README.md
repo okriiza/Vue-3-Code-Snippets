@@ -5,22 +5,33 @@
 
 ## Description
 
-Vue 3 Code Snippets is a versatile code editor extension designed for developers working with Nuxt 3, Vue 3, and Pinia. This extension provides a comprehensive set of snippets that cover a wide range of features, making it an essential tool for developers looking to increase their productivity and streamline their workflow. The extension includes snippets for Nuxt 3 modules, plugins, and middleware, as well as Vue 3 components, directives, and lifecycle hooks. Additionally, it provides snippets for working with the Pinia state management library, including actions, getters, and mutations. Vue 3 Code Snippets is easy to use and lightweight, with simple and intuitive commands that can be customized to suit the developer's preferences. Overall, this extension is an essential tool that will help developers write code faster, with fewer errors, and with greater consistency.
+A VSCode extension to provide snippets for Vue 3, Nuxt 3 and Pinia.
 
 > I took my inspiration from [vue-vscode-snippets](https://github.com/sdras/vue-vscode-snippets) extension made by @sdras.
 >
 > I took my inspiration from [vue3-vscode-snippets](https://github.com/ExEr7um/vue3-vscode-snippets) extension made by @ExEr7um.
 
-## Supported languages
+## Features
 
-- vue(.vue)
-- javascript(.js)
-- typescript(.ts)
+- Vue 3 snippets
+- Nuxt 3 snippets
+- Pinia snippets
+- Composition API snippets
+- Support for JavaScript and TypeScript
 
-## Supported Version
+## Requirements
 
-- Vue 3
-- Nuxt 3
+- Visual Studio Code 1.75 or higher
+
+## Installation
+
+1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
+2. Search for `Vue 3 Code Snippets` by **RendiOkriza**.
+3. Click **Install** to install it.
+
+## Usage
+
+Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ## Snippets
 
@@ -124,5 +135,9 @@ Vue 3 Code Snippets is a versatile code editor extension designed for developers
 | `nplugin`               | Start code for Nuxt plugin                         |
 | `nmiddleware`           | Start code for Nuxt middleware                     |
 | `nserverroute`          | Start code for Nuxt server route                   |
+
+## License
+
+[MIT](https://github.com/okriiza/Vue-3-Code-Snippets/blob/main/LICENSE) © [Rendi Okriza Putra](https://github.com/okriiza)
 
 **Enjoy!**
