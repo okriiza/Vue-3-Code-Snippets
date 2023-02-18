@@ -3,7 +3,7 @@
   "displayName": "Vue 3 Code Snippets",
   "description": "Vue 3, Nuxt 3 And Pinia snippets",
   "icon": "images/vue-logo.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "RendiOkriza",
   "license": "MIT",
   "author": {
@@ -75,7 +75,7 @@
         "path": "./snippets/vue/vue-router.code-snippets"
       },
       {
-        "language": "typscript",
+        "language": "typescript",
         "path": "./snippets/vue/vue-router.code-snippets"
       },
       {
