@@ -37,23 +37,25 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 ### Support File `.vue`
 
-| Prefix           | Purpose                                                                  |
-| ---------------- | ------------------------------------------------------------------------ |
-| `vstart`         | start for Vue 3 File with `<script setup>` No style                      |
-| `vstart-scss`    | start for Vue 3 File with `<script setup>` Style `SCSS`                  |
-| `vstart-sass`    | start for Vue 3 File with `<script setup>` Style `SASS`                  |
-| `vstart-less`    | start for Vue 3 File with `<script setup>` Style `LESS`                  |
-| `vstart-pcss`    | start for Vue 3 File with `<script setup>` Style `PostCSS`               |
-| `vstart-css`     | start for Vue 3 File with `<script setup>` Style `CSS`                   |
-| `vstart-ts`      | start for Vue 3 File with `<script setup>`, `TypeScript` No Style        |
-| `vstart-ts-scss` | start for Vue 3 File with `<script setup>`, `TypeScript` Style `SCSS`    |
-| `vstart-ts-sass` | start for Vue 3 File with `<script setup>`, `TypeScript` Style `SASS`    |
-| `vstart-ts-less` | start for Vue 3 File with `<script setup>`, `TypeScript` Style `LESS`    |
-| `vstart-ts-pcss` | start for Vue 3 File with `<script setup>`, `TypeScript` Style `PostCSS` |
-| `vstart-ts-css`  | start for Vue 3 File with `<script setup>`, `TypeScript` Style `CSS`     |
+| Prefix           | Purpose                                                               |
+| ---------------- | --------------------------------------------------------------------- |
+| `vstart`         | start for Vue 3 File with `<script setup>` No style                   |
+| `vstart-scss`    | start for Vue 3 File with `<script setup>` Style `SCSS`               |
+| `vstart-sass`    | start for Vue 3 File with `<script setup>` Style `SASS`               |
+| `vstart-less`    | start for Vue 3 File with `<script setup>` Style `LESS`               |
+| `vstart-pcss`    | start for Vue 3 File with `<script setup>` Style `PostCSS`            |
+| `vstart-css`     | start for Vue 3 File with `<script setup>` Style `CSS`                |
+| `vstart-ts`      | start for Vue 3 File with `<script setup lang='ts'>`, No Style        |
+| `vstart-ts-scss` | start for Vue 3 File with `<script setup lang='ts'>`, Style `SCSS`    |
+| `vstart-ts-sass` | start for Vue 3 File with `<script setup lang='ts'>`, Style `SASS`    |
+| `vstart-ts-less` | start for Vue 3 File with `<script setup lang='ts'>`, Style `LESS`    |
+| `vstart-ts-pcss` | start for Vue 3 File with `<script setup lang='ts'>`, Style `PostCSS` |
+| `vstart-ts-css`  | start for Vue 3 File with `<script setup lang='ts'>`, Style `CSS`     |
 
 | Prefix        | Purpose                       |
 | ------------- | ----------------------------- |
+| `vscript`     | `<script setup>`              |
+| `vscript-ts`  | `<script setup lang='ts'>`    |
 | `vtemplate`   | `<template></template>`       |
 | `vfor`        | `v-for` statement             |
 | `vslot-named` | `<template #name></template>` |
@@ -92,25 +94,27 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 
 - Vue
 
-| Prefix                   | Purpose                                     |
-| ------------------------ | ------------------------------------------- |
-| `vref`                   | Vue `ref`                                   |
-| `vreactive`              | Vue `reactive`                              |
-| `vcomputed`              | Vue `computed`                              |
-| `vwatch`                 | Watcher                                     |
-| `vwatcheffect`           | Watch Effect                                |
-| `vonmounted`             | onMounted hook                              |
-| `vonbeforemount`         | onBeforeMount hook                          |
-| `vonbeforeupdate`        | onBeforeUpdate hook                         |
-| `vonupdated`             | onUpdated hook                              |
-| `vonerrorcaptured`       | onErrorCaptured hook                        |
-| `vonunmounted`           | onUnmounted hook                            |
-| `vonbeforeunmount`       | onBeforeUnmount hook                        |
-| `vdefineprops`           | Define props                                |
-| `vdefineemits`           | Define emits                                |
-| `vdefineemits-nopayload` | Define emits with no payload                |
-| `vsingleemit`            | Single emit for defineEmits                 |
-| `vsingleemit-nopayload`  | Single emit for defineEmits with no payload |
+| Prefix             | Purpose                     |
+| ------------------ | --------------------------- |
+| `vref`             | Vue `ref`                   |
+| `vreactive`        | Vue `reactive`              |
+| `vcomputed`        | Vue `computed`              |
+| `vwatch`           | Watcher                     |
+| `vwatcheffect`     | Watch Effect                |
+| `vonmounted`       | onMounted hook              |
+| `vonbeforemount`   | onBeforeMount hook          |
+| `vonbeforeupdate`  | onBeforeUpdate hook         |
+| `vonupdated`       | onUpdated hook              |
+| `vonerrorcaptured` | onErrorCaptured hook        |
+| `vonunmounted`     | onUnmounted hook            |
+| `vonbeforeunmount` | onBeforeUnmount hook        |
+| `vdefineprops`     | Define props                |
+| `vdefineemits`     | Define emits                |
+| `vsingleemit`      | Single emit for defineEmits |
+| `vdefineslots`     | Define slots                |
+| `vsingleslot`      | Single slot for defineSlots |
+| `vdefineoptions`   | Define Options              |
+| `vdefinemodel`     | Define Model                |
 
 - Nuxt
 
@@ -134,7 +138,7 @@ Type part of a snippet, press `enter`, and the snippet unfolds.
 | `npagemeta-ml`          | `definePageMeta` composable with middleware layout |
 | `nplugin`               | Start code for Nuxt plugin                         |
 | `nmiddleware`           | Start code for Nuxt middleware                     |
-| `nserverroute`          | Start code for Nuxt server route                   |
+| `nserver`               | Start code for Nuxt server                         |
 
 ## License
 

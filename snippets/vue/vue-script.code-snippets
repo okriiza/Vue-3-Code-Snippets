@@ -90,21 +90,19 @@
     "prefix": "vdefineemits",
     "body": [
       "defineEmits<{",
-      "\t(e: '${1:eventName}', ${2:payloadName}: ${3:payloadType}): void",
+      "\t${1:eventName}: [${2}]",
       "}>()"
     ],
     "description": "Vue defineEmits"
   },
-  "Vue Define Emits - No Payload": {
-    "prefix": "vdefineemits-nopayload",
+  "Single Emit - Vue": {
+    "prefix": "vsingleemit",
     "body": [
-      "defineEmits<{",
-      "\t(e: '${1:eventName}'): void",
-      "}>()"
+      "${1:eventName}: [${2}]",
     ],
-    "description": "Vue defineEmits with no payload"
+    "description": "Vue single emit for defineEmits"
   },
-  "Vue Watch": {
+  "Watch - Vue": {
     "prefix": "vwatch",
     "body": [
       "watch(",
@@ -116,7 +114,7 @@
     ],
     "description": "Vue watcher"
   },
-  "Vue Watch Effect": {
+  "Watch Effect - Vue": {
     "prefix": "vwatcheffect",
     "body": [
       "watchEffect(() => {",
@@ -124,5 +122,37 @@
       "})"
     ],
     "description": "Vue Watch Effect"
+  },
+  "Define Slots - Vue": {
+    "prefix": "vdefineslots",
+    "body": [
+      "defineSlots<{",
+      "\tdefault: (props: { ${0} }) => any",
+      "}>()"
+    ],
+    "description": "Vue defineSlots"
+  },
+  "Single Slot - Vue": {
+    "prefix": "vsingleslot",
+    "body": [
+      "\t${1:slotName}: (props: { ${0} }) => any",
+    ],
+    "description": "Vue single slot for defineSlots"
+  },
+  "Define Options - Vue": {
+    "prefix": "vdefineoptions",
+    "body": [
+      "defineOptions({",
+      "\t${0}",
+      "})"
+    ],
+    "description": "Vue defineOptions"
+  },
+  "Define Model - Vue": {
+    "prefix": "vdefinemodel",
+    "body": [
+      "const modelValue = defineModel()",
+    ],
+    "description": "Vue defineModel"
   },
 }

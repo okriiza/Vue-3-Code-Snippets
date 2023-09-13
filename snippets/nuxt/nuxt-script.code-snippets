@@ -185,13 +185,13 @@
     ],
     "description": "Base code for Nuxt middleware"
   },
-  "Nuxt define server route": {
-    "prefix": "nserverroute",
+  "Nuxt define server": {
+    "prefix": "nserver",
     "body": [
       "export default defineEventHandler((event) => {",
       "\t${0}",
       "})",
     ],
-    "description": "Base code for Nuxt server route"
+    "description": "Base code for Nuxt server"
   },
 }
