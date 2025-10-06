@@ -19,16 +19,6 @@ A VSCode extension to provide snippets for Vue 3, Nuxt 3 and Pinia.
 - Composition API snippets
 - Support for JavaScript and TypeScript
 
-## Requirements
-
-- Visual Studio Code 1.75 or higher
-
-## Installation
-
-1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for `Vue 3 Code Snippets` by **RendiOkriza**.
-3. Click **Install** to install it.
-
 ## Usage
 
 Type part of a snippet, press `enter`, and the snippet unfolds.

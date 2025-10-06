@@ -12,7 +12,7 @@
     "url": "https://github.com/okriiza"
   },
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.104.0"
   },
   "activationEvents": [
     "onStartupFinished"
